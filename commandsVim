@@ -1,0 +1,55 @@
+h -> izquierda
+j -> abajo
+k -> arriba
+l -> derecha
+
+esc -> salir de modo insertar.
+:q -> salir de vim. 
+:w -> guardar cambios del documento
+:wq -> guardar cambios y salir de vim
+:edit direccionDocumento
+
+w-W -> desplazar cursor entre las palabras posicionandolo al inicio.
+e -> desplazar cursor entre las palabras posicionandolo al final.
+b -> devuelve el cursor entre palabras posicionandolo al inicio.
+
+4w -> Desplaza el cursor 4 palabras pisicionandolo al inicio.
+fk -> Desplaza el cursor al proximo caracter 'k'en esa linea.
+0 -> Ubica el cursor al inicio de la linea
+$ -> ubica el cursor al final de la linea.
+* -> se ubica sobre la palabra a buscar y el cursor se desplazará por cada palabra a lo largo de un documeto.
+% -> se ubica sobre la apertura o cierre de un parentesis o corchete y lo ubica al cierre o inicio del mismo.
+gg -> se ubica al inicio del documento
+G -> se ubica en la última línea del documento
+5G -> se ubica en la línea 5 del documento.
+o -> inserta una nueva linea y queda en modo insertar.
+O -> inserta una linea antes y queda en modo insertar.
+x -> borrar caracter que está señalado por el cursor sin necesidad de entrar al modo insertar
+X -> borra el caracter ubicado a la izquierda del cursor sin entrar al modo insertar.
+r-> reemplaza el caracter señalado por el cursor sin necesidad de ingresar al modo insertar.
+dw -> borra la palabra desde donde está ubicado el cursor hasta el final.
+dd -> se corta la linea en la que está ubicado el cursor.
+p-> pegar
+. -> se repite el último comando realizado.
+v -> modo visual. 
+    se seleccionan palabras con ayude de h,j,k,l o de comandos como e y w
+/palabraBuscada -> buscar palabras en todo el documento
+    n -> salta a la siguiente palabra que coincide con la busqueda
+    N -> salta a la anterior palabra que coincide con la busqueda
+/o$ -> busca las líneas que terminan con la etra o.
+u -> CTRL-Z
+
+ZZ -> guardar los cambios y cerrar vim
+CTRL-D -> opciones de un comando 
+:history/ -> historial de comandos
+dap -> borrar parrafo entero
+w -> palabras delimitadas por "no letras".
+s -> frases, palabras delimitadas por puntos.
+p -> párrafos, texto delimitado por lineas en blanco.
+b -> texto encerrado en paréntesis.
+B -> texto encerrado entre llaves.
+Prefijos
+    a -> incluye delimitadores
+        daw -> borra una palabra junto al delimitador
+    i -> no incluye delimitadores
+        diw -> borra una palabra al delimitador

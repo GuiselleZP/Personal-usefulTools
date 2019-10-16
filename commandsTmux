@@ -1,0 +1,9 @@
+Ejecutar comandos:
+ctrl + b + ...
+ctrl + b + c -> crear una nueva sesion
+ctrl + b + w -> enlistar sesiones
+ctrl + b + # -> viajar entre las diferentes sesiones.
+ctrl + b + " -> divide la terminal horizontalmente.
+ctrl + b + % -> divide la terminal verticalmente.
+tmux kill-session -t numSession -> elimina todas las sesiones
+tmux kill-session -a -> elimina todas las sesiones

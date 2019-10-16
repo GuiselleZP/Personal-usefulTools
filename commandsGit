@@ -1,0 +1,37 @@
+git init: crear repositorio
+git status: examinar el estado del repositorio
+	Registra todos los "git add filename"
+commit: cambios en el repositorio
+git add filename: hacer seguimiento al archivo "filename".
+	Es un área temporal entre la modificación y la agregación al
+	repositorio.
+git commit: registrar cambio, se abre el editor para agregar descripción.
+		agregar al repositorio.
+git log: ver el historial de commits.
+	Aparece una linea con la palabra "commit" con un código, es un hash. 
+	sirve para identificar un commit, se calcula a partir del contenido del
+	mismo.
+git diff: ver los cambios de los archivos que no se han registrado en el
+		state.
+git commit --amend: Se abre el commit anterior para modificar su descripcion.o
+
+¿Cómo deshago una modificación?
+git checkout -- filename: Deshace los cambios en "filename". Cuando no se 
+	ha registrado los cambios con un "git add filename".
+git reset HEAD filename: Deshace los cambios del "filename" cuando se ha
+	registrado los cambios con un "git add filename". Elimina el registro
+	del "add" por lo que debe realizarce de nuevo el comando:
+	git checkout -- filename
+
+¿Cómo deshago un commit?
+ver los comits realizados y copiar el código identificador del commit al que se
+desea regresar.
+
+git log --oneline: muestra en cada linea el código del commit y el mensaje del
+	mismo.
+git reset CodigoCommit: se devuelve al commit con el código indicado. No deshace
+	los cambios locales.
+git reset --hard codigoCommit: se devuelve al commit con el código indicado. 
+	Deshace los cambios localmente.
+git reset --soft códigoCommit: se devuelve al comit pero deja los cambios en el
+	state.
