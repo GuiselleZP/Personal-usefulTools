@@ -1,5 +1,5 @@
 # Programs or packets installed on my Kali Linux
-1.**Vim text editor**
+1. **Vim text editor**
 	
 	It was installed using the comand:
 
@@ -29,14 +29,15 @@
 	sudo apt-get install python3
 	```
 1. **Node.js**
+
 	Node.js is a server-side Javascript environment, based on events. Node.js 
 	runs javascript using the V8 engine, developed by Google for the use of its
 	Chrome browser. Taking advantage of the V8 engine allows Node.js to provide
 	a server-side runtime environment that compiles and executes javascript at 
 	incredible speeds.
 
-	It installed it following the steps in the following article ([click here]
-	(https://ourcodeworld.com/articles/read/410/how-to-install-node-js-in-kali-linux))
+	It installed it following the steps in the following article ([click
+	here](https://ourcodeworld.com/articles/read/410/how-to-install-node-js-in-kali-linux))
 	
 1. **Turtl App**
 	Turtl is a private place to keep your notes, bookmarks, passwords, ideas, 
