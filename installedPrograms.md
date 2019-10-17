@@ -1,5 +1,5 @@
 # Programs or packets installed on my Kali Linux
-## Vim text editor
+1.**Vim text editor**
 	
 	It was installed using the comand:
 
@@ -11,7 +11,7 @@
 	here](https://juncotic.com/vim-plugins-mejorando-favorito/), installing
 	the **Vundle** plugin manager.
 
-## Build-esscential
+1. **Build-esscential**
 
 	Is a metapackage (a package that installs many other packages, like g++ and
 	gcc: the GNU C & C++ compilers). It's required if you want to compile 
@@ -22,13 +22,13 @@
 	```
 	sudo apt-get install build-esscential
 	```
-## Python3
+1. **Python3**
 	
 	It was installed using the command:
 	```
 	sudo apt-get install python3
 	```
-## Node.js
+1. **Node.js**
 	Node.js is a server-side Javascript environment, based on events. Node.js 
 	runs javascript using the V8 engine, developed by Google for the use of its
 	Chrome browser. Taking advantage of the V8 engine allows Node.js to provide
@@ -38,7 +38,7 @@
 	It installed it following the steps in the following article ([click here]
 	(https://ourcodeworld.com/articles/read/410/how-to-install-node-js-in-kali-linux))
 	
-## Turtl App
+1. **Turtl App**
 	Turtl is a private place to keep your notes, bookmarks, passwords, ideas, 
 	dream logs, photos, documents and anything else you want kept safe. Turtl's 
 	easy tagging and filtering make it ideal for organization and research 
@@ -68,13 +68,13 @@
 		removing it globally super user rights are required)
 
 
-### gconf-gsettings-backend
-	The application use the package 'libgconf-2-4', which was used for the 
-	GNOME configuration database system (shared libraries), but it was not 
-	available, so I installed 'gconf-gsettings-backend' which replaced it.
+	1. **gconf-gsettings-backend**
+		The application use the package 'libgconf-2-4', which was used for the 
+		GNOME configuration database system (shared libraries), but it was not 
+		available, so I installed 'gconf-gsettings-backend' which replaced it.
 
-	It was installed using the command:
-	```
-	sudo apt-get install gconf-gsettings-backend
+		It was installed using the command:
+		```
+		sudo apt-get install gconf-gsettings-backend
 
-	```
+		```
