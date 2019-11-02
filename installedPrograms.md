@@ -80,3 +80,32 @@
 		sudo apt-get install gconf-gsettings-backend
 
 		```
+1. **Telegram Desktop**
+	Is a cloud-based instant messaging and voice over IP service. Users can
+	send messages and exchange photos, videos, stickers, audio and files of any
+	type.
+	
+	Telegram's cleint-side code is open-source software but the source code for
+	recent versions is not always inmmediately published, whereas its 
+	server-side code is closed-source and proprietary.
+
+	Messages and media in Telegram are encrypted when stored on its servers,
+	and the client-server communication is also encrypted. The service provides
+	end-to-end encryption for voice calls, and optional end-to-end encrypted
+	"secret" chats between two online users, yet not for groups or channels.
+
+	It was installed using the command:
+	```
+	sudo apt install telegram-desktop
+	```
+
+1. **MongoDB**
+	MongoDB is a NoSQL database system geared towards open-source documents.
+	
+	Instead of saving the data in table, as it is done in relational databases,
+	MongoDB saves BSON data structures (a specification similar to JSON) with a
+	dynamic sheme, making the integration of the data in certaing applications
+	easier and faster.
+
+	I installed it following the instructions of the oficial website.
+	[Click here](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-debian/)

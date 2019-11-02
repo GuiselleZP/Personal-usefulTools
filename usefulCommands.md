@@ -29,7 +29,7 @@
 	1. type the word 'plugin', leave a space and in quotes add the repository
 	extension in github or its link. for example:
 		```
-		plugin 'cocopon/iceberg.vim'
+		Plugin 'cocopon/iceberg.vim'
 		```
 	1. Execute the command from vim:
 		```
