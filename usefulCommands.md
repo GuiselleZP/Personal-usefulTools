@@ -46,3 +46,16 @@
 	```
 	/opt/turtl/turtl
 	```
+1. **Start IntelliJ IDEA desde terminal**
+	
+	Use the command:
+	```
+	/usr/local/bin/idea
+	```
+1. **Translate MarkDown to PDF**
+	
+	Use the command:
+	```
+	pandoc -V papersize:a4 -V margin-left:1.5cm -V margin-right:1.5cm -V margin-top:1.5cm -V margin-bottom:1.5cm test.md -o test.pdf
+
+	```

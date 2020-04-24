@@ -1,4 +1,5 @@
 # Programs or packets installed on my Kali Linux
+
 1. **Vim text editor**
 	
 	It was installed using the comand:
@@ -81,6 +82,7 @@
 
 		```
 1. **Telegram Desktop**
+
 	Is a cloud-based instant messaging and voice over IP service. Users can
 	send messages and exchange photos, videos, stickers, audio and files of any
 	type.
@@ -100,6 +102,7 @@
 	```
 
 1. **MongoDB**
+
 	MongoDB is a NoSQL database system geared towards open-source documents.
 	
 	Instead of saving the data in table, as it is done in relational databases,
@@ -109,3 +112,18 @@
 
 	I installed it following the instructions of the oficial website.
 	[Click here](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-debian/)
+1. **Eclipse**
+
+	[Click here](https://instatecno.com/instalar-eclipse-linux-espanol/)
+
+1. **Megabasterd**
+
+	[Click here](https://jcreparaciones.blogspot.com/2018/04/megabasterdmulti38-para-linux-y-windows.html)
+
+1. **Pandoc**
+
+	[Click here](https://stackoverflow.com/questions/17630486/how-to-convert-from-a-markdown-file-to-pdf)
+
+1. **Evince**
+
+	[Click here](http://elinuxbook.com/install-evince-linux-pdf-viewer-in-ubuntu-16-04-a-document-viewer-for-linux/)
